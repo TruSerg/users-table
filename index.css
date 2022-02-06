@@ -1,0 +1,89 @@
+
+button {
+	cursor: pointer;
+}
+
+table {
+	margin: 0 auto;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+td, th {
+	width: 10vw;
+	border: 1px solid #000;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.wrapper {
+	padding: 100px 100px;
+	background-color: #FFDEAD;
+	min-height: 80vh;
+}
+
+.btn-delete {
+	color: red;
+	font-size: 30px;
+	padding: 5px 15px 5px 15px;
+	border: 0;
+	border-radius: 5px;
+	background-color: #FFDEAD;
+	transition: all 0.4s ease;
+}
+
+.btn-delete:hover {
+	background-color: red;
+	color: #fff;
+}
+
+#btn {
+	background-color: blue;
+	color: #fff;
+   font-size: 18px;
+	border-radius: 5px;
+	padding: 10px;
+	transition: all 0.4s ease;
+}
+
+#btn:hover {
+   background-color: green;
+	color: #000;
+}
+
+.input-wrapper {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #000;
+	border-radius: 5px;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 265px;
+	margin-bottom: 100px;
+	padding: 20px;
+}
+
+.input-radio {
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.input-name {
+	margin-bottom: 20px;
+	max-width: 240px;
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+	background-color: #FFDEAD;
+
+}
+
+.input-age {
+	margin-bottom: 20px;
+	max-width: 240px;
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+	background-color: #FFDEAD;
+}

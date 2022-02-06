@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+	<div class="input-wrapper">
+		
+		<input class="input-name" type="text" name="name" id="input-name" placeholder="Введите имя:">
+		<input class="input-age" id="input-age" placeholder="Введите возраст:">
+		<div class="input-radio">
+			<input type="radio" name="gender" value="М" checked>М</input>
+         <input type="radio" name="gender" value="Ж" >Ж</input>
+		</div>
+		<button id="btn">Добавить</button>
+	</div>
+	<div>
+		<table>
+			<tr>
+				<th>Имя</th>
+				<th>Возраст</th>
+				<th>Пол</th>
+				<th>Удалить</th>
+			</tr>
+		</table>
+		<table id="table"></table>
+	</div>
+</div>
+	<script src="index.js"></script>
+</body>
+</html>
