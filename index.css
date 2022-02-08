@@ -76,7 +76,7 @@ td, th {
 	padding: 10px;
 	font-size: 18px;
 	background-color: #FFDEAD;
-
+	border-radius: 5px;
 }
 
 .input-age {
@@ -86,4 +86,6 @@ td, th {
 	padding: 10px;
 	font-size: 18px;
 	background-color: #FFDEAD;
+	border-radius: 5px;
+
 }
